@@ -7,7 +7,7 @@
 
 ## Modelo Conceitual ER
 
-<img src="images/EDiagrama_ER.png" width="400px" height="auto">
+<img src="images/Diagrama_ER.png" width="400px" height="auto">
 
 ## Modelo Conceitual UML
 
