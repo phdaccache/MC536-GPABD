@@ -15,5 +15,5 @@
 
 * Quais são as receitas mais similares, considerando como critério de similaridade a quantidade de alimentos em comum que essas receitas usam?
 * É possível criar grupos para os alimentos a partir das receitas em que são usados juntos?
-* É possível definir um critério de importância para cada alimento com base na dieta das pessoas?
+* É possível rankear as pessoas de alguma forma com base na dieta delas?
 * Existe alguma relação entre o método de cozimento da receita e a forma dos alimentos constituintes?
