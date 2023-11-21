@@ -14,21 +14,21 @@
 ## Perguntas de Pesquisa/Análise Combinadas e Respectivas Análises
 
 ### Pergunta/Análise 1
-* Pergunta 1
+* Quais são as receitas mais similares, considerando como critério de similaridade a quantidade de alimentos em comum que essas receitas usam?
 
    * Análise com link prediction...
 
 ### Pergunta/Análise 2
-* Pergunta 2
+* É possível criar grupos para os alimentos a partir das receitas em que são usados juntos?
 
    * Comunidades...
 
 ### Pergunta/Análise 3
-* Pergunta 3
+* É possível definir um critério de importância para cada alimento com base na dieta das pessoas?
 
    * Centralidade/PageRank...
 
 ### Pergunta/Análise 4
-* Pergunta 4
+* Existe alguma relação entre o método de cozimento da receita e a forma dos alimentos constituintes?
 
    * ...
