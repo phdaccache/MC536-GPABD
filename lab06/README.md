@@ -110,6 +110,6 @@ ON MATCH SET t.weight = t.weight + 1
 O peso de cada aresta entre os efeitos colaterais é o número de medicamentos que causaram ambos. Visualizando os mais relacionados:
 ~~~cypher
 MATCH (pa:Pathology)<-[t:Times]->(pb:Pathology)
-WHERE t.weight > 30
+WHERE t.weight > 20
 RETURN pa, t, pb
 ~~~
