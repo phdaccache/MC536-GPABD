@@ -24,7 +24,7 @@
    * Comunidades...
 
 ### Pergunta/Análise 3
-* É possível definir um critério de importância para cada alimento com base na dieta das pessoas?
+* É possível rankear as pessoas de alguma forma com base na dieta delas?
 
    * Centralidade/PageRank...
 
