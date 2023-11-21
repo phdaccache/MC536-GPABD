@@ -25,8 +25,8 @@ ON MATCH SET r.weight = r.weight + 1
 ~~~
 Visualizando:
 ~~~cypher
-MATCH (p1:Pathology)<-[:Relates]->(p2:Pathology)
-RETURN p1, p2
+MATCH (p1:Pathology)<-[r:Relates]->(p2:Pathology)
+RETURN p1, r, p2
 LIMIT 20
 ~~~
 
@@ -89,7 +89,7 @@ Visualizando os mais relevantes
 ~~~cypher
 MATCH (d:Drug)<-[r:Relates]->(p:Pathology)
 WHERE r.weight > 50
-RETURN d, p
+RETURN d, r, p
 ~~~
 
 ## Exercício
@@ -110,6 +110,6 @@ ON MATCH SET t.weight = t.weight + 1
 O peso de cada aresta entre os efeitos colaterais é o número de medicamentos que causaram ambos. Visualizando os mais relacionados:
 ~~~cypher
 MATCH (pa:Pathology)<-[t:Times]->(pb:Pathology)
-WHERE t.weight > 30
-RETURN pa, pb
+WHERE t.weight > 20
+RETURN pa, t, pb
 ~~~
